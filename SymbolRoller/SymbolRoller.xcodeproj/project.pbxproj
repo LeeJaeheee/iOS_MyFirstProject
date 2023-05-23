@@ -12,9 +12,6 @@
 		D2B5996B2A17742600402EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B599692A17742600402EDA /* Main.storyboard */; };
 		D2B5996D2A17742600402EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B5996C2A17742600402EDA /* Assets.xcassets */; };
 		D2B599702A17742600402EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2B5996E2A17742600402EDA /* LaunchScreen.storyboard */; };
-		D2B5997B2A17742700402EDA /* SymbolRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B5997A2A17742700402EDA /* SymbolRollerTests.swift */; };
-		D2B599852A17742700402EDA /* SymbolRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B599842A17742700402EDA /* SymbolRollerUITests.swift */; };
-		D2B599872A17742700402EDA /* SymbolRollerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B599862A17742700402EDA /* SymbolRollerUITestsLaunchTests.swift */; };
 		D2B599942A17780700402EDA /* SymbolRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B599932A17780700402EDA /* SymbolRollerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +41,7 @@
 		D2B5996F2A17742600402EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2B599712A17742600402EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2B599762A17742600402EDA /* SymbolRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B5997A2A17742700402EDA /* SymbolRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerTests.swift; sourceTree = "<group>"; };
 		D2B599802A17742700402EDA /* SymbolRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B599842A17742700402EDA /* SymbolRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITests.swift; sourceTree = "<group>"; };
-		D2B599862A17742700402EDA /* SymbolRollerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D2B599932A17780700402EDA /* SymbolRollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				D2B599622A17742600402EDA /* SymbolRoller */,
-				D2B599792A17742700402EDA /* SymbolRollerTests */,
-				D2B599832A17742700402EDA /* SymbolRollerUITests */,
 				D2B599612A17742600402EDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				D2B599932A17780700402EDA /* SymbolRollerViewController.swift */,
 			);
 			path = SymbolRoller;
-			sourceTree = "<group>";
-		};
-		D2B599792A17742700402EDA /* SymbolRollerTests */ = {
-			isa = PBXGroup;
-			children = (
-				D2B5997A2A17742700402EDA /* SymbolRollerTests.swift */,
-			);
-			path = SymbolRollerTests;
-			sourceTree = "<group>";
-		};
-		D2B599832A17742700402EDA /* SymbolRollerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D2B599842A17742700402EDA /* SymbolRollerUITests.swift */,
-				D2B599862A17742700402EDA /* SymbolRollerUITestsLaunchTests.swift */,
-			);
-			path = SymbolRollerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B5997B2A17742700402EDA /* SymbolRollerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B599872A17742700402EDA /* SymbolRollerUITestsLaunchTests.swift in Sources */,
-				D2B599852A17742700402EDA /* SymbolRollerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
